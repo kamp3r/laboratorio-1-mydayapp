@@ -1,5 +1,6 @@
 import "./css/base.css";
 
-import { sayHello } from "./js/utils";
+import { createTodo, getTodos } from "./js/utils";
 
-console.log(sayHello("Hello"));
+createTodo();
+getTodos();
